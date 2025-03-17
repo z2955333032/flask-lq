@@ -1,0 +1,49 @@
+
+{
+ // "spider": "./fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
+  "wallpaper": "./R.jfif",
+  "logo": "./logo.gif",
+   "warningText": "",
+   "sites": [
+
+    {"key":"ddys", "name":"低端影视", "api":"./myjs/ddys.js", "timeout":300, "ext":{"box":"TVBox"},"playerType":2,"type":3, "searchable": 1, "quickSearch": 1,"changeable":1},
+
+     {"key":"czzy", "name":"厂长资源", "api":"./myjs/czzy.js", "timeout":300, "ext":{"box":"TVBox"},"type":3, "searchable": 1, "quickSearch": 1,"changeable": 1},
+       {"key": "subaibai","name": "素白白","api": "./myjs/subaibai.js","type": 3,"playerType": "2","searchable": 1,"quickSearch": 1,"changeable": 1,"timeout":300},
+     {"key":"ysgc", "name":"影视工厂", "api":"./myjs/ysgc.js", "timeout":300, "ext":{"box":"TVBox"},"type":3, "searchable":1, "quickSearch": 1,"changeable": 1},
+       {"key":"jianpian", "name":"荐片", "api":"./myjs/jianpian.js", "timeout":300, "ext":{"box":"TVBox"},"type":3, "searchable": 1, "quickSearch": 1,"changeable": 1},
+     {"key":"zulanqiu", "name":"足球&&篮球", "api":"./myjs/zulanqiu.js", "timeout":300,"type":3, "searchable":0, "quickSearch": 0,"changeable": 0,"style": {"type": "list"}},
+     {
+        "key": "91_porn",
+        "name": "91porn",
+        "type": 3,
+        "api": "./js/91_porn.js",
+        "searchable": 1,
+        "quickSearch": 0,
+        "filterable": 0,
+        "playerType":2
+    }
+  ],
+  "parses": [
+
+
+  ],
+  "doh": [
+    {"name": "Google","url": "https://dns.google/dns-query","ips": [  "8.8.4.4",  "8.8.8.8"]},
+    {"name": "Cloudflare","url": "https://cloudflare-dns.com/dns-query","ips": [  "1.1.1.1",  "1.0.0.1",  "2606:4700:4700::1111",  "2606:4700:4700::1001"]},
+    {"name": "AdGuard","url": "https://dns.adguard.com/dns-query","ips": [  "94.140.14.140",  "94.140.14.141"]},
+    {"name": "DNSWatch","url": "https://resolver2.dns.watch/dns-query","ips": [  "84.200.69.80",  "84.200.70.40"]},
+    {"name": "Quad9","url": "https://dns.quad9.net/dns-quer","ips": [  "9.9.9.9",  "149.112.112.112"]}
+  ],
+  "rules": [
+
+  ],
+  "lives": [
+    {"name": "肥猫","type": 0,"url": "http://我不是.肥猫.live/TV/tvzb.txt","playerType": 1,"ua": "okhttp/3.15","epg": "http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {"name": "SAO0","type": 0,"url": "./libs/tv/tvlive.txt","playerType": 1,"ua": "okhttp/3.15","epg": "http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {"name": "IPV6","type": 0,"url": "./lib/tv/ipv6.m3u","playerType": 1,"ua": "okhttp/3.15","epg": "http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+  ]
+}
