@@ -1,6 +1,6 @@
 
 {
- // "spider": "./fty.jar;md5;3d161697458ecbcd2651a749db761ba1",
+
   "wallpaper": "./R.jfif",
   "logo": "./logo.gif",
    "warningText": "",
@@ -17,7 +17,7 @@
         "key": "91_porn",
         "name": "91porn",
         "type": 3,
-        "api": "./js/91_porn.js",
+        "api": "./myjs/91_porn.js",
         "searchable": 1,
         "quickSearch": 0,
         "filterable": 0,
